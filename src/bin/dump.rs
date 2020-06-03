@@ -1,10 +1,10 @@
 //! Parse a C file and dump the AST.
 
-extern crate lang_c;
+extern crate lang_cl;
 
 use std::process::exit;
 
-use lang_c::driver::Config;
+use lang_cl::driver::Config;
 
 fn main() {
     let mut config = Config::default();
@@ -38,7 +38,7 @@ fn main() {
         }
     };
 
-    match lang_c::driver::parse(&config, &source) {
+    match lang_cl::driver::parse(&config, &source) {
         Ok(parse) => {
             if !quiet {
                 println!("{:#?}", parse.unit);

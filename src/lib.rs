@@ -1,7 +1,7 @@
 //! C language parser and abstract syntax tree
 //!
 //! ```
-//! use lang_c::driver::{Config, parse};
+//! use lang_cl::driver::{Config, parse};
 //!
 //! fn main() {
 //!     let config = Config::default();

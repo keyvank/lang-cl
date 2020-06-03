@@ -1,5 +1,5 @@
-extern crate lang_c;
-use lang_c::ast::*;
+extern crate lang_cl;
+use lang_cl::ast::*;
 use std::mem::size_of;
 
 macro_rules! ps {

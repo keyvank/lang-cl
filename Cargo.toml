@@ -1,15 +1,15 @@
 [package]
-name = "lang-c"
-version = "0.8.1"
-authors = ["Vickenty Fesunov <kent@setattr.net>"]
+name = "lang-cl"
+version = "0.1.0"
+authors = ["Vickenty Fesunov <kent@setattr.net>", "Keyvan Kambakhsh <keyvankambakhsh@gmail.com"]
 license = "MIT/Apache-2.0"
-description = "Lightweight C parser"
+description = "Lightweight OpenCL parser"
 include = [ "/src/**/*.rs", "Cargo.toml", "/LICENSE*", "/README.md" ]
-documentation = "https://docs.rs/lang-c"
-homepage = "https://github.com/vickenty/lang-c"
-repository = "https://github.com/vickenty/lang-c"
-keywords = [ "ast", "c", "parser", "c-language" ]
+documentation = "https://docs.rs/lang-cl"
+homepage = "https://github.com/keyvank/lang-cl"
+repository = "https://github.com/keyvank/lang-cl"
+keywords = [ "ast", "opencl", "parser", "opencl-language" ]
 categories = [ "parser-implementations" ]
 
 [badges]
-travis-ci = { repository = "vickenty/lang-c" }
+travis-ci = { repository = "keyvank/lang-cl" }
